@@ -1,0 +1,27 @@
+/* seletor:pseudo-classe{
+  propriedade: valor;
+} */
+
+/* p:first-child{
+  color: rgb(144, 255, 218);
+}
+
+p:last-child{
+  color: rgb(138, 43, 227);
+} */
+
+/* p:not(.padrao){
+  color: yellow;
+} */
+
+/* li:nth-child(2n){
+  color: rgb(249, 3, 3);
+} */
+
+li:nth-last-child(1){
+  color: blue;
+}
+
+p:only-child{
+  color: red;
+}

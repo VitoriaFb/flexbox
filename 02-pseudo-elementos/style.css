@@ -1,0 +1,36 @@
+/* sletor::pseudo-elemento{
+  propridedade: valor;
+} */
+
+.first-letter::first-letter {
+  color: rgba(23, 240, 37, 0.883);
+}
+
+.first-line::first-line {
+  color: rgb(0, 25, 251);
+}
+
+.first-line::first-letter{
+  color: red;
+}
+
+li::marker {
+  color: rgb(255, 46, 151);
+  font-size: 25px;
+}
+
+.before::before {
+  content: "";
+  background: url(cafe.png) center center no-repeat;
+  display: inline-block;
+  width: 143px;
+  height: 213px;
+}
+
+.after::after{
+  content: url(cafe.png);
+}
+
+
+
+
